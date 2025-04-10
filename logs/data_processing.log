@@ -1,0 +1,10 @@
+2025-04-09 06:08:05,082 - INFO - Starting data processing from data/raw/climate_data_global.csv
+2025-04-09 06:08:05,083 - ERROR - Processing failed: Input file not found: data/raw/climate_data_global.csv
+2025-04-09 06:08:05,083 - CRITICAL - Pipeline failed: Input file not found: data/raw/climate_data_global.csv
+2025-04-09 19:42:07,749 - INFO - Starting data processing from data/raw/climate_data_global.csv
+2025-04-09 19:42:07,784 - INFO - Initial data: 36600 rows, 6 columns
+2025-04-09 19:42:07,795 - INFO - Data cleaning removed 29780 rows (81.37%)
+2025-04-09 19:42:07,864 - INFO - Saved processed data to data/processed/climate_data.csv
+2025-04-09 19:42:07,864 - INFO - Final data shape: (6820, 11)
+2025-04-09 19:42:07,864 - INFO - Preparing training data
+2025-04-09 19:42:07,900 - INFO - Training data prepared successfully

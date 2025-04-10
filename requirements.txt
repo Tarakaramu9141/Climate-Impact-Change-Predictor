@@ -1,0 +1,26 @@
+#Core dependencies
+numpy
+pandas
+matplotlib
+seaborn
+
+#Geospatial
+earthengine-api
+geopandas
+rasterio
+folium
+pyproj
+
+#Machine Learning
+scikit-Learn
+tensorflow
+xgboost
+
+#App & Visualizations
+streamlit
+plotly
+streamlit-folium
+
+#Utilities
+python-dotenv
+tqdm
