@@ -33,6 +33,27 @@ venv\scripts\activate
 4. Set up Google Earth Engine authentication
 - Create a Google Earth Engine account.
 - run earthengine authenticate in your terminal and follow the instructions.
+## Note
+- Run authentication
+   ''' bash
+     earthengine authenticator
+- A browser window will open to log in with the your GEE-approved Google account.
+- Copy the authorization code back to the terminal.
+- Set up service account
+- Place the private key json file in the project root.
+- Add to .env
+GEE_SERVICE_ACCOUNT = your-service-account@project.iam.gseriveaccount.com
+GEE_SERVICE_KEY_PATH = private_key_json.
+- Download the satellite data
+ python -m src.data.download_data
+- Process the Data
+ python -m src.data.preprocess_data
+- Train the models
+- Train the random_forest model
+python -m src.models.train_rf
+- Train the neural_network model
+python -m src.models.train_nn
+-Finally run the streamlit
 5. Run the application
    streamlit run app/main.py
 
